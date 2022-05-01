@@ -1,2 +1,16 @@
-# kit305-week10-sample
- Sample code for KIT305 week 10 lecture
+# kit305week10
+
+Sample code from the week 10 lecture of KIT305 Mobile Dev
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+
+For help getting started with Flutter, view our
+[online documentation](https://flutter.dev/docs), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
