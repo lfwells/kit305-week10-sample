@@ -125,14 +125,14 @@ class Letter extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: SizedBox(
-        width:64,
-        height:64,
+        width:48,
+        height:48,
         child: DecoratedBox(
             decoration: BoxDecoration(
                 color: color,
                 borderRadius: const BorderRadius.all(Radius.circular(8.0))
             ),
-            child: Center(child: Text(letter.toUpperCase(), style: const TextStyle(fontSize: 36.0),))
+            child: Center(child: Text(letter.toUpperCase(), style: const TextStyle(fontSize: 24.0),))
         ),
       ),
     );

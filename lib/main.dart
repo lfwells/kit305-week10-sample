@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:kit305week10/full_wordle.dart';
-import 'package:kit305week10/multi_wordle.dart';
-import 'package:kit305week10/part1_base.dart';
-import 'package:kit305week10/part1_complete.dart';
-import 'package:kit305week10/part2_base.dart';
-import 'package:kit305week10/part2_complete.dart';
+import 'package:flutter_week_10/full_wordle.dart';
+import 'package:flutter_week_10/multi_wordle.dart';
+import 'package:flutter_week_10/part1_base.dart';
+import 'package:flutter_week_10/part1_complete.dart';
+import 'package:flutter_week_10/part2_base.dart';
+import 'package:flutter_week_10/part2_complete.dart';
 
 void main() {
   runApp(const MyApp());
@@ -72,14 +72,14 @@ class _MyHomePageState extends State<MyHomePage> {
       body: const Center(
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
-        child: Center(child:
+        child: SingleChildScrollView(child:
 
           //uncomment/comment items here as we go through each part of the demo
-          Part1Base(),
+          //Part1Base(),
           //Part1Complete(),
           //Part2Base(),
           //Part2Complete(),
-          //FullWordle(),
+          FullWordle(),
           //MultiWordle(),
 
 

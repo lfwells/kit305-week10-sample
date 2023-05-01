@@ -1,7 +1,7 @@
 // ignore_for_file: avoid_print
 
 import 'package:flutter/material.dart';
-import 'package:kit305week10/full_wordle.dart';
+import 'package:flutter_week_10/full_wordle.dart';
 
 class MultiWordle extends StatelessWidget {
   const MultiWordle({Key? key}) : super(key: key);

@@ -1,11 +1,11 @@
 {
-    "name": "kit305week10",
-    "short_name": "kit305week10",
+    "name": "flutter_week_10",
+    "short_name": "flutter_week_10",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Sample code from the week 10 lecture of KIT305 Mobile Dev",
+    "description": "A new Flutter project.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
